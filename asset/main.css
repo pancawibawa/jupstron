@@ -1,0 +1,156 @@
+:root {
+    --primary-color: #a0e7e5; /* Warna utama */
+    --secondary-color: #6c757d; /* Warna sekunder */
+    --success-color: #28a745; /* Warna sukses */
+    --danger-color: #dc3545; /* Warna bahaya */
+    --warning-color: #ffc107; /* Warna peringatan */
+    --info-color: #17a2b8; /* Warna info */
+    --light-color: #f8f9fa; /* Warna terang */
+    --dark-color: #343a40; /* Warna gelap */
+}
+
+.primary{
+    background-color: var(--primary-color);
+
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d1b2a;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #a0a0a0;
+}
+
+.btn-custom {
+    background-color: #a0e7e5;
+    color: #000;
+    border: none;
+}
+
+.btn-outline-custom {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline-custom:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.hero-section {
+    text-align: left;
+    padding: 4rem 2rem;
+    background: linear-gradient(180deg, #0d1b2a 0%, #1b263b 100%);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section h1 span {
+    color: #a0e7e5;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.portfolio-section {
+    padding: 2rem;
+    background-color: #1b263b;
+}
+
+.portfolio-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio-section .card {
+    background-color: #1b263b;
+    border: none;
+    color: #ffffff;
+}
+
+.portfolio-section .card img {
+    width: 100%;
+    height: auto;
+}
+
+.services-section {
+    padding: 2rem;
+    background-color: #1b263b;
+}
+
+.services-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.services-section .card {
+    background-color: #1b263b;
+    border: none;
+    color: #ffffff;
+}
+
+.services-section .card img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #0d1b2a;
+    padding: 2rem;
+    color: #a0a0a0;
+}
+
+.footer a {
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.footer .social-icons i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+
+.floating-image {
+    animation: float 3s infinite ease-in-out; /* Nama animasi, durasi, loop, dan easing */
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0); /* Posisi awal */
+    }
+    50% {
+        transform: translateY(-20px); /* Naik */
+    }
+    100% {
+        transform: translateY(0); /* Kembali ke posisi awal */
+    }
+}
